@@ -5,8 +5,8 @@ import Message, {MessageDataType} from "./Message";
 function HW1() {
     const messageData: MessageDataType = {
         avatar: 'https://sun9-74.userapi.com/Ph-WiuOtF985il9AvN9JqiCWedmHtSGSSTXrSA/ltEB2Z2-YO4.jpg',
-        name: 'Some Name',
-        message: 'some text',
+        name: 'Artem',
+        message: 'npm start нажимал?',
         time: '22:00',
     }
 
