@@ -6,14 +6,13 @@
 
 .container {
     display: flex;
-    max-width: 400px;
-    margin-left: 30px;
     padding: 5px 10px;
     background-color: greenyellow;
 }
 
 .image_wrapper{
     background-color: #012d01;
+    align-self: flex-end;
 }
 
 .image_wrapper2 {
@@ -35,7 +34,7 @@ align-self: flex-end;
 }
 
 .message_container {
-    width: 100%;
+    width: 300px;
     display: flex;
     justify-content: space-between;
     padding: 15px;
@@ -58,6 +57,7 @@ align-self: flex-end;
 .message_content {
     color: #c6ecc6;
     font-size: 16px;
+    word-wrap: break-word;
 }
 
 .message_time {
