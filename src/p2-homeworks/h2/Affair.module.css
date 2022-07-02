@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+    width: 300px;
+    border: 1px solid darkgreen;
+
+}
+
+.button {
+    width: 50px;
+}
