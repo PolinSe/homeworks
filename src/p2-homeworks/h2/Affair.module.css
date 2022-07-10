@@ -4,9 +4,20 @@
     justify-content: space-between;
     width: 300px;
     border: 1px solid darkgreen;
-
 }
 
 .button {
     width: 50px;
+}
+
+.high {
+    color: red;
+}
+
+.middle {
+    color: orange;
+}
+
+.low {
+    color: green;
 }
