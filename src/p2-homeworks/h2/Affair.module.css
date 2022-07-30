@@ -3,7 +3,7 @@
     gap: 15px;
     justify-content: space-between;
     width: 300px;
-    border: 1px solid darkgreen;
+    border-bottom: 1px solid grey;
 }
 
 .button {
