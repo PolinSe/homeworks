@@ -37,6 +37,7 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUser
         if (e.key === 'Enter' && name) {
             addUser()
         }
+        else { setError('Name is required')}
     }
 
     const totalUsers = users.length // need to fix
