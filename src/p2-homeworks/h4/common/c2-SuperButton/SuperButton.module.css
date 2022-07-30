@@ -1,7 +1,53 @@
 .default {
+    width: 80px;
+    appearance: none;
+    border: 0;
+    border-radius: 5px;
+    background: #4676D7;
+    color: #fff;
+    padding: 8px 0;
+    font-size: 16px;
+    text-align: center;
+}
 
+.default:hover {
+    background: #1d49aa;
+    cursor: pointer;
+}
+
+.default:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px #cbd6ee;
+}
+.default:disabled {
+    color: #d2d5db;
+    background: #6c7589;
+    cursor: not-allowed;
 }
 
 .red {
+    width: 80px;
+    appearance: none;
+    border: 0;
+    border-radius: 5px;
     background: red;
+    color: #fff;
+    padding: 8px 0;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.red:hover {
+    background: #7a0101;
+}
+
+.red:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px #cbd6ee;
+}
+.red:disabled {
+    color: #d2d5db;
+    background: #6c7589;
+    cursor: not-allowed;
 }
