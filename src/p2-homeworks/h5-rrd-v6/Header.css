@@ -1,0 +1,39 @@
+
+.menu {
+    position: relative;
+    display: flex;
+    gap: 20px;
+    padding-bottom: 20px;
+    transition: all .3s ease;
+}
+
+.menu-close {
+    left: -285px;
+}
+
+.menu-open {
+    left: 0px;
+}
+
+.link {
+    text-decoration: none;
+    color: #012d01;
+    font-weight: bold;
+}
+
+.link:hover {
+    text-decoration: none;
+    color: green;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.icon:hover {
+    background-color: greenyellow;
+}
