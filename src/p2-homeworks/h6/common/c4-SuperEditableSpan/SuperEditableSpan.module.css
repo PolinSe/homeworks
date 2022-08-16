@@ -1,0 +1,11 @@
+.additionalStyle {
+    display: inline-block;
+    color: darkblue;
+    padding: 19px 0;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.input {
+    margin: 20px 0;
+}
