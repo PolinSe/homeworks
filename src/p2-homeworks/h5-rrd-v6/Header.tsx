@@ -1,19 +1,28 @@
-import React, {useState} from 'react'
+import React from 'react'
 import {NavLink} from 'react-router-dom';
+import {PATH} from './Pages';
 import './Header.css'
 
 function Header() {
 
-    const [open, setOpen] = useState(false)
-    const onClickHandler = () => {
-        setOpen(!open)
-    }
     return (
-        <div className={open ? 'menu menu-open' : 'menu menu-close'}>
-            <NavLink to={'/pre-junior'} className={'link'}>preJunior</NavLink>
-            <NavLink to={'/junior'} className={'link'}>Junior</NavLink>
-            <NavLink to={'/junior-plus'} className={'link'}>Junior+</NavLink>
-            <div className={'icon'} onClick={onClickHandler}></div>
+        <div className={'menu'}>
+            <NavLink to={PATH.PRE_JUNIOR}
+                     className={({isActive}) => isActive ? 'link active' : 'link'}
+            >
+                preJunior
+            </NavLink>
+            <NavLink to={PATH.JUNIOR}
+                     className={({isActive}) => isActive ? 'link active' : 'link'}
+            >
+                Junior
+            </NavLink>
+            <NavLink to={PATH.JUNIOR_PLUS}
+                     className={({isActive}) => isActive ? 'link active' : 'link'}
+            >
+                Junior+
+            </NavLink>
+            <div className={'icon'}></div>
         </div>
     )
 }
