@@ -1,0 +1,9 @@
+.radio {
+display: flex;
+    justify-content: space-between;
+    width: 100px;
+    margin-bottom: 10px;
+    color: #980398;
+    font-weight: bold;
+}
+
