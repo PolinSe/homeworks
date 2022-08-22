@@ -8,7 +8,7 @@ type SortActionType = {
 }
 type CheckActionType = {
     type: 'check'
-    payload: 18
+    payload: number
 }
 
 export const homeWorkReducer = (state: UserType[], action: ActionType): UserType[] => { // need to fix any
@@ -23,7 +23,7 @@ export const homeWorkReducer = (state: UserType[], action: ActionType): UserType
         }
         case 'check': {
             // need to fix
-            return state.filter(el => el.age >= 18)
+            return state.filter(el => el.age >= action.payload)
         }
         default:
             return state
